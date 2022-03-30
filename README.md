@@ -16,8 +16,8 @@ The minimum files you need are four:
 app.html
 ```
      <!DOCTYPE html><html><head><meta charset="utf-8"></head><body></body></html>
-     <script src="NODEToJS.js></script><script>NodeToJS.HTMLMODE=1</script>
-     <script src="app.js></script>
+     <script src="NODEToJS.js"></script><script>NodeToJS.HTMLMODE=1</script>
+     <script src="app.js"></script>
 ```
 2. Your apps.js must contain at least the following code. It is the first thing that has to be executed.
 
