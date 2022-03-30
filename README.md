@@ -5,7 +5,9 @@ Use:
 1º You need a HTML wrap file (for example game.html) to load the NodeToJS library (NodeToJS.js) like a script and to load your NodeJS/Javascript scripts (game.js in this example) from a web browser. You also have to add NodeToJS.HTMLMODE=1 right after loading the library/module and before loading your scripts.
 
 game.html
+```
      <!DOCTYPE html><html><head><meta charset="utf-8"></head><body></body></html>
      <script src="NODEToJS.js></script><script>NodeToJS.HTMLMODE=1</script>
      <script src="game.js></script>
+```
 
