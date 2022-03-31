@@ -4,7 +4,7 @@ NodeToJS is a module/library at once: a module for NodeJS and a library for Java
 Features:
     -     Use canvas to simulate the terminal.
     -     Draw text with foreground color and background color.
-    -     Read key events
+    -     Read key events.
     -     It has no user text input fields (for now).
 
 ### Use:
