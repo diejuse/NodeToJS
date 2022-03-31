@@ -2,18 +2,18 @@
 NodeToJS is a module/library at once: a module for NodeJS and a library for Javascript (JS). It allows to create text based apps/games that can be executed and work both in the terminal (for Windows, Linux or Mac) and in a web browser. That is, with the same code you will create a CLI app/game and a text-based webapp/webgame.
 
 Features:
-    -     Use canvas to simulate the terminal.
-    -     Draw text with foreground color and background color.
-    -     Read key events.
-    -     It has no user text input fields (for now).
+- Use canvas to simulate the terminal.
+- Draw text with foreground color and background color.
+- Read key events.
+- It has no user text input fields (for now).
 
 ### Use:
 The minimum files you need are four:
-    -     A wrap file:                                                     app.html
-    -     A monospace font. I recommend woff files. For example:           WebPlus_ToshibaSat_9x16.woff
-          You can get old PC fonts here: https://int10h.org/oldschool-pc-fonts/fontlist/
-    -     The NodeToJS module/library:                                     NODEtoJS.js
-    -     Your main .js file.                                              app.js
+- A wrap file:                                                     app.html
+- A monospace font. I recommend woff files. For example:           WebPlus_ToshibaSat_9x16.woff
+    You can get old PC fonts here: https://int10h.org/oldschool-pc-fonts/fontlist/
+- The NodeToJS module/library:                                     NODEtoJS.js
+- Your main .js file.                                              app.js
 
 ### Hello world example.
 
