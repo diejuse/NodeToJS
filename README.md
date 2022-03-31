@@ -49,4 +49,6 @@ app.js
      });
 ```
 
-Color:  `#3465a4`
+Color:  ```html
+   <span style='color:red'>Hola</span>
+```
