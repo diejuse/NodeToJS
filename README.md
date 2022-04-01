@@ -53,14 +53,22 @@ app.js
      }
      if(typeof(NodeToJS)=="undefined"){NodeToJS=require('./NodeToJS.js').NodeToJS}
      NodeToJS.start(35,14,"./WebPlus_ToshibaSat_9x16.woff",9,16,function(){ 
-          // 35 and 14 are the maximum rows and the columns of the simulated terminal
+          // 35 and 14 are the maximum columns and the rows of the simulated terminal
           // WebPlus_ToshibaSat_9x16.woff is a monospace font that my simulated terminal will use. 
-          //      Downloaded from https://int10h.org/oldschool-pc-fonts/download/oldschool_pc_font_pack_v2.2_web.zip
           // 9 and 16 are the width and height of each character of the chosen font, measured in pixels.
           init()
      });
 ```
+### Functions
 
-Color:  ```html
-   <span style='color:red'>Hola</span>
+```
+.start( term_columns, term_rows, font_url, width_fontpixels, height_fontpixels, success)
+
+- term_columns: Number of columns of the simulated terminal.
+- term_rows: Number of rows of the simulated terminal.
+- font_url: A string containing the URL to load the the monospace choosen font. https://int10h.org/oldschool-pc-fonts/download/oldschool_pc_font_pack_v2.2_web.zip
+- width_fontpixels: Width of the loaded text font, measured in number of pixels.
+- height_fontpixels: Height of the loaded text font, measured in number of pixels.
+
+
 ```
