@@ -9,10 +9,10 @@ Features:
 
 ### Use:
 The minimum files you need are four:
-- A wrap file:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; app.html
+- A wrap file:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; app.html
 - A monospace font. I recommend woff files. For example:&emsp;&emsp;&emsp;&emsp; WebPlus_ToshibaSat_9x16.woff
-- The NodeToJS module/library: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; NODEtoJS.js
-- Your main .js file. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; app.js
+- The NodeToJS module/library: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; NODEtoJS.js
+- Your main .js file. &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; app.js
 
 You can get old PC fonts here: https://int10h.org/oldschool-pc-fonts/fontlist/
 
