@@ -59,6 +59,17 @@ app.js
           init()
      });
 ```
+### Code of colors (foreground and background)
+
+0: black &emsp;&emsp;&emsp;&emsp; 10: darkgray
+1: red &emsp;&emsp;&emsp; 11: lightred
+2: yellow &emsp;&emsp;&emsp; 12: lightyellow
+3: green &emsp;&emsp;&emsp; 13: lightgreen
+4: blue &emsp;&emsp;&emsp; 14: lightblue
+5: purple &emsp;&emsp;&emsp; 15: violet
+6: niagara &emsp;&emsp;&emsp; 16: cyan
+7: lightgray &emsp;&emsp;&emsp; 17: white 
+
 ### Functions
 
 .start( term_columns, term_rows, font_url, width_fontpixels, height_fontpixels, success)
@@ -69,3 +80,10 @@ app.js
 - width_fontpixels: Width of the loaded text font, measured in number of pixels.
 - height_fontpixels: Height of the loaded text font, measured in number of pixels.
 ```
+.draw( list_to_draw )
+```
+- list_to_draw: Array of elements to draw on the pseudo terminal with this structure:
+{c:foreground color, b: background color, x: x-coordinate of the pseudo terminal, y: y-coordinate of the pseudo terminal, t: text to draw}
+
+```
+
