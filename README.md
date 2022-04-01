@@ -61,14 +61,11 @@ app.js
 ```
 ### Functions
 
-```
 .start( term_columns, term_rows, font_url, width_fontpixels, height_fontpixels, success)
-
+```
 - term_columns: Number of columns of the simulated terminal.
 - term_rows: Number of rows of the simulated terminal.
 - font_url: A string containing the URL to load the the monospace choosen font. https://int10h.org/oldschool-pc-fonts/download/oldschool_pc_font_pack_v2.2_web.zip
 - width_fontpixels: Width of the loaded text font, measured in number of pixels.
 - height_fontpixels: Height of the loaded text font, measured in number of pixels.
-
-
 ```
