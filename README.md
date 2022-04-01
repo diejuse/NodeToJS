@@ -62,10 +62,10 @@ app.js
 ### Code of colors (foreground and background)
 
 0: black &emsp;&emsp;&emsp;&emsp; 10: darkgray <br/>
-1: red &emsp;&emsp;&emsp; 11: lightred <br/>
+1: red &emsp;&emsp;&emsp;&emsp; 11: lightred <br/>
 2: yellow &emsp;&emsp;&emsp; 12: lightyellow <br/>
 3: green &emsp;&emsp;&emsp; 13: lightgreen <br/>
-4: blue &emsp;&emsp;&emsp; 14: lightblue <br/>
+4: blue &emsp;&emsp;&emsp;&emsp; 14: lightblue <br/>
 5: purple &emsp;&emsp;&emsp; 15: violet <br/>
 6: niagara &emsp;&emsp;&emsp; 16: cyan <br/>
 7: lightgray &emsp;&emsp;&emsp; 17: white <br/>
