@@ -97,7 +97,7 @@ app.js
 It allows to scale the pseudo terminal to the size of the entire body of the web window.
 ```
 
-.readkey(function(k){&nbsp;....&nbsp;}
+.readkey(function(k){&nbsp;....&nbsp;})
 ```
 k: It's the key pressed to detect.
 ```
