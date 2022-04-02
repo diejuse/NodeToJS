@@ -83,7 +83,28 @@ app.js
 .draw( list_to_draw )
 ```
 - list_to_draw: Array of elements to draw on the pseudo terminal with this structure:
-{c:foreground color, b: background color, x: x-coordinate of the pseudo terminal, y: y-coordinate of the pseudo terminal, t: text to draw}
+{c:foreground color code, b: background color code, x: x-coordinate of the pseudo terminal, y: y-coordinate of the pseudo terminal, t: text to draw}
 
 ```
 
+.cleanScreen(bgcolor)
+```
+- bgcolor: Background color code to clean the pseudo terminal.
+```
+
+.scaleFullscreen()
+```
+It allows to scale the pseudo terminal to the size of the entire body of the web window.
+```
+
+.readkey(function(k){
+&emsp;&emsp;....
+}
+```
+k: It's the key pressed to detect.
+```
+
+.exit()
+```
+End the application.
+```
