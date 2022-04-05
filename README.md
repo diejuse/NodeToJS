@@ -61,6 +61,16 @@ app.js
           init()
      });
 ```
+3. **How to run?**
+- If you want to run it from web browser: open helloworld.html
+- If you want to run it from terminal: node helloworls.js
+
+## A more advanced example: bashBlitz.
+
+To better demonstrate the usefulness of NodeToJS I have converted my bashBlitz game (https://github.com/diejuse/bashblitz) to NodeJS/Javascript using my module/library. This way you can play from the terminal (node bashblitz.js) or from a web browser (by opening bashblitz.html).
+
+## Documentation.
+
 ### Code of colors (foreground and background)
 
 0: black &emsp;&emsp;&emsp;&emsp; 10: darkgray <br/>
