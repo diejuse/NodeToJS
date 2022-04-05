@@ -18,6 +18,8 @@ You can get old PC fonts here: https://int10h.org/oldschool-pc-fonts/fontlist/
 
 ### Hello world example.
 
+![alt text](https://github.com/diejuse/NodeToJS/blob/3400a73593b7b5a526eba90f3083d138211637b0/helloworld/helloworld.png)
+
 1. Your HTML wrap file (for example app.html) will load the NodeToJS library (NodeToJS.js) and will load the starter NodeJS/Javascript script of yout app (app.js in this example). You also have to add NodeToJS.HTMLMODE=1 right after loading the library/module and before loading your scripts.
 
 app.html
