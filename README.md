@@ -94,6 +94,7 @@ To better demonstrate the usefulness of NodeToJS I have converted my bashBlitz g
 - width_fontpixels: Width of the loaded text font, measured in number of pixels.
 - height_fontpixels: Height of the loaded text font, measured in number of pixels.
 ```
+
 .draw( list_to_draw )
 ```
 - list_to_draw: Array of elements to draw on the pseudo terminal with this structure:
@@ -104,6 +105,16 @@ To better demonstrate the usefulness of NodeToJS I have converted my bashBlitz g
 .cleanScreen(bgcolor)
 ```
 - bgcolor: Background color code to clean the pseudo terminal.
+```
+
+.getColumns()
+```
+Get the number of columns of the real terminal.
+```
+
+.getRows()
+```
+Get the number of rows of the real terminal.
 ```
 
 .scaleFullscreen()
