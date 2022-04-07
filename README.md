@@ -64,8 +64,8 @@ app.js
      });
 ```
 3. **How to run?**
+- If you want to run it from terminal: node helloworld.js
 - If you want to run it from web browser: open helloworld.html
-- If you want to run it from terminal: node helloworls.js
 
 ## A more advanced example: bashBlitz.
 
