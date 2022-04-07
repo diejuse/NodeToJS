@@ -71,7 +71,9 @@ app.js
 
 To better demonstrate the usefulness of NodeToJS I have converted my bashBlitz game (https://github.com/diejuse/bashblitz) to NodeJS/Javascript using my module/library. This way you can play from the terminal (node bashblitz.js) or from a web browser (by opening bashblitz.html). You can play it here: https://mural.uv.es/diejuse/bashblitz/bashblitz.html
 
-![alt text](https://github.com/diejuse/NodeToJS/blob/f3efd7b560d81bde2580678c7454262113aba8e3/bashblitz/bashblitz1.png)
+Click to view my Youtube video:
+[![Demo](https://github.com/diejuse/NodeToJS/blob/f3efd7b560d81bde2580678c7454262113aba8e3/bashblitz/bashblitz1.png)](https://youtu.be/qPCUceojpNg)
+
 
 ## Documentation.
 
